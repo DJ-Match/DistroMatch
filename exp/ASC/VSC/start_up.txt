@@ -1,0 +1,15 @@
+module load intel/19
+module load intel-oneapi-mpi/2021.7.1-intel-2021.7.1-fzg6q4x
+module load cmake/3.24.3-oneapi-2022.2.1-fzlf7x2
+
+---
+Submitted batch job 2392654
+
+----
+VSC 5:
+
+module load cmake/3.31.6-gcc-12.2.0-b55yivf
+module load gcc/13.2.0-gcc-12.2.0-wmf5yxk       -> for zen (docs.vsc.ac.at/software/compilers)
+module load openmpi/4.1.5-gcc-9.5.0-om5dlyg     -> for zen2 (see module avail openmpi) 
+
+module load openmpi/4.1.6-gcc-12.2.0-exh7lqk -> for zen3

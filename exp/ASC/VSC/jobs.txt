@@ -1,0 +1,108 @@
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+5812376 zen3_0512  scaling  hecks24 PD 2025-07-28T22:00:00      8 n3501-[007,016,018], (Priority)
+5812378 zen3_0512  scaling  hecks24 PD 2025-07-28T22:43:57     32 n3506-[013-019],n350 (Priority)
+5812379 zen3_0512  scaling  hecks24 PD 2025-07-29T00:59:13     64 n3501-[007,016,018], (Priority)
+5812373 zen3_0512  scaling  hecks24 PD 2025-07-29T01:01:15      1 n3505-041            (Priority)
+5812374 zen3_0512  scaling  hecks24 PD 2025-07-29T01:01:15      2 n3503-047,n3509-012  (Priority)
+5812375 zen3_0512  scaling  hecks24 PD 2025-07-29T01:01:15      4 n3503-036,n3505-070, (Priority)
+5812377 zen3_0512  scaling  hecks24 PD 2025-07-29T02:30:00     16 n3506-[013-019],n350 (Priority)
+5812302 zen2_0256  scaling  hecks24 PD 2025-07-30T08:59:50     16 n3066-[014-016,019], (QOSGrpGRES)
+5812299 zen2_0256  scaling  hecks24 PD 2025-07-30T10:30:00      2 n3066-[015-016]      (Priority)
+5812301 zen2_0256  scaling  hecks24 PD 2025-07-30T10:30:00      8 n3066-004,n3067-[004 (QOSGrpGRES)
+5812121 zen2_0256  scaling  hecks24 PD 2025-07-30T12:30:00      1 n3067-017            (Priority)
+5812300 zen2_0256  scaling  hecks24 PD 2025-07-30T12:30:00      4 n3067-[004-007]      (Priority)
+
+rmat_s24:
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+5815721 zen3_0512  scaling  hecks24 PD 2025-07-31T10:45:35     16 n3508-[052,059,061], (Priority)
+5815724 zen3_0512  scaling  hecks24 PD 2025-07-31T10:45:35    128 n3501-[004,008,024,0 (Resources)
+5815723 zen3_0512  scaling  hecks24 PD 2025-08-01T20:55:08     64 n3501-[016-018,035-0 (Priority)
+5815722 zen3_0512  scaling  hecks24 PD 2025-08-01T21:36:41     32 n3501-[007,029-030,0 (Priority)
+-> forgot to create folder
+
+ JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+5816354 zen3_0512  scaling  hecks24 PD 2025-07-30T15:00:00     16 n3506-057,n3508-[005 (Priority)
+5816343 zen3_0512  scaling  hecks24 PD 2025-07-31T04:16:05     32 n3501-039,n3503-[002 (Priority)
+5816335 zen3_0512  scaling  hecks24 PD 2025-07-31T21:11:26    128 n3501-[055-059],n350 (Priority)
+5816341 zen3_0512  scaling  hecks24 PD 2025-07-31T21:41:59     64 n3501-[052-053,065-0 (Priority)
+-> missing modules?
+
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+5828484 zen3_0512  scaling  hecks24 PD 2025-07-31T15:30:00     32 n3501-[014,022],n350 (Priority)
+5828482 zen3_0512  scaling  hecks24 PD 2025-07-31T15:58:10     16 n3501-[005,009,011], (Priority)
+5828485 zen3_0512  scaling  hecks24 PD 2025-07-31T19:39:41     64 n3501-[003,005,009,0 (Resources)
+5828481 zen3_0512  scaling  hecks24 PD 2025-08-01T02:15:57    128 n3501-[003,005,009,0 (Resources)
+
+
+
+
+5828481 zen3_0512  scaling  hecks24 PD 2025-08-01T00:47:11    128 n3501-[042-043,066], (Priority)
+
+5833433 zen3_0512  scaling  hecks24 PD 2025-08-01T01:53:27      2 n3512-[014,020]      (Priority)
+5833442 zen3_0512  scaling  hecks24 PD 2025-08-01T02:30:00     32 n3503-[039-040,042-0 (Priority)
+5833444 zen3_0512  scaling  hecks24 PD 2025-08-01T02:30:00     64 n3501-[042-043],n350 (Priority)
+5833432 zen3_0512  scaling  hecks24 PD 2025-08-01T02:55:49      1 n3505-049            (Priority)
+5833439 zen3_0512  scaling  hecks24 PD 2025-08-01T03:30:00     16 n3502-[020,031,044,0 (Priority)
+5833435 zen3_0512  scaling  hecks24 PD 2025-08-01T04:30:00      4 n3503-[062-065]      (Priority)
+5833438 zen3_0512  scaling  hecks24 PD 2025-08-01T04:30:00      8 n3505-[060-067]      (Priority)
+
+
+s24_seed2:
+
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6123285 zen3_0512  scaling  hecks24 PD 2025-08-26T15:25:04     16 (null)               (Priority)
+6123286 zen3_0512  scaling  hecks24 PD 2025-08-26T15:25:04     32 (null)               (Priority)
+6123288 zen3_0512  scaling  hecks24 PD 2025-08-26T19:30:00    128 (null)               (Priority)
+6123287 zen3_0512  scaling  hecks24 PD 2025-08-29T11:53:43     64 (null)               (Resources)
+
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6159839 zen3_0512  scaling  hecks24 PD 2025-09-03T18:08:37     32 n3503-[006-009,043], (Priority)
+6159837 zen3_0512  scaling  hecks24 PD 2025-09-03T20:00:00     16 n3503-[006-009],n350 (Priority)
+6159840 zen3_0512  scaling  hecks24 PD 2025-09-04T09:37:10     64 n3503-[056-067],n350 (Priority)
+6159842 zen3_0512  scaling  hecks24 PD 2025-09-05T06:26:46    128 n3501-[021-022,025-0 (Priority)
+
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6170788 zen3_0512  scaling  hecks24 PD 2025-09-08T13:15:05     64 n3501-[016-017,021-0 (Priority)
+
+6189599 zen3_0512  scaling  hecks24 PD                 N/A      1 (null)               (Priority)
+6189600 zen3_0512  scaling  hecks24 PD                 N/A      2 (null)               (Priority)
+6189601 zen3_0512  scaling  hecks24 PD                 N/A      4 (null)               (Priority)
+6189602 zen3_0512  scaling  hecks24 PD                 N/A      8 (null)               (Priority)
+6189603 zen3_0512  scaling  hecks24 PD                 N/A     16 (null)               (Priority)
+6189604 zen3_0512  scaling  hecks24 PD                 N/A     32 (null)               (Priority)
+
+fbB:
+  JOBID            PARTITION     NAME     USER ST       TIME  NODES     NODELIST(REASON)
+6199973            zen3_0512  scaling  hecks24 PD       0:00     64           (Priority)
+6199972            zen3_0512  scaling  hecks24 PD       0:00     32           (Priority)
+6199970            zen3_0512  scaling  hecks24 PD       0:00     16           (Priority)
+6199969            zen3_0512  scaling  hecks24 PD       0:00      8           (Priority)
+6199968            zen3_0512  scaling  hecks24 PD       0:00      4           (Priority)
+6199967            zen3_0512  scaling  hecks24 PD       0:00      2           (Priority)
+6199966            zen3_0512  scaling  hecks24 PD       0:00      1           (Priority)
+
+weak_scaling:
+ JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6250263 zen3_0512  scaling  hecks24 PD 2025-09-25T05:15:16     16 n3501-005,n3507-[003 (Resources)
+6252709 zen3_0512  scaling  hecks24 PD                 N/A     32 (null)               (Priority)
+6252710 zen3_0512  scaling  hecks24 PD                 N/A     64 (null)               (Priority)
+
+weak_scaling_large:
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6307343 zen3_0512  scaling  hecks24 PD 2025-10-06T21:46:17     32 n3503-[017,037-040], (Priority)
+6307345 zen3_0512  scaling  hecks24 PD 2025-10-08T02:45:24    128 n3501-[052-054],n350 (Priority)
+6307344 zen3_0512  scaling  hecks24 PD 2025-10-09T14:30:24     64 n3501-[004-005,009,0 (Priority)
+
+strong_scaling_large:
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6312558 zen3_0512  scaling  hecks24 PD 2025-10-07T17:36:52      8 n3502-[065-067],n350 (Priority)
+6312560 zen3_0512  scaling  hecks24 PD 2025-10-07T18:47:43     32 n3502-[065-067],n350 (Priority)
+6312559 zen3_0512  scaling  hecks24 PD 2025-10-07T19:30:00     16 n3502-[065-067],n350 (Priority)
+6312561 zen3_0512  scaling  hecks24 PD 2025-10-09T04:07:43     64 n3501-[026-027],n350 (Priority)
+
+continue:
+  JOBID PARTITION     NAME     USER ST          START_TIME  NODES SCHEDNODES           NODELIST(REASON)
+6316555 zen3_0512  scaling  hecks24 PD 2025-10-08T16:28:08      8 n3501-040,n3505-[014 (Priority)
+6316556 zen3_0512  scaling  hecks24 PD 2025-10-08T20:58:41     16 n3501-040,n3504-040, (Priority)
+6316557 zen3_0512  scaling  hecks24 PD 2025-10-09T07:20:23     32 n3501-[009,026-027,0 (Priority)
+6329375 zen3_0512  scaling  hecks24 PD 2025-10-14T07:58:40    128 n3501-[006,011-019,0 (Resources)

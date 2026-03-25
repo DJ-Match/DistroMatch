@@ -1,0 +1,10 @@
+*vscode*
+
+data
+bin
+build
+
+
+**/*run*/
+*venv*
+*.pdf

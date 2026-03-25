@@ -1,0 +1,279 @@
+# https://cran.r-project.org/web/packages/khroma/vignettes/tol.html
+# Colours in default order: '#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499'. Bad data: '#DDDDDD'.
+# '#EE7733', '#0077BB', '#33BBEE', '#EE3377', '#CC3311', '#009988', '#BBBBBB'.
+
+# https://siegal.bio.nyu.edu/color-palette/
+algo_config:
+  kMM:
+    display_name: "kMM"
+    color: "#E69F00"
+    marker: "o"
+    linestyle: "" #solid
+  kMM_1:
+    display_name: "kMM_1"
+    color: "#E69F00"
+    marker: "h"
+    linestyle: "" #solid
+  kMM_32:
+    display_name: "kMM_32"
+    color: "#E69F00"
+    marker: "h"
+    linestyle: [5, 2]  # dashed
+  kMM_64:
+    display_name: "kMM_64"
+    color: "#E69F00"
+    marker: "s"
+    linestyle: [2, 2]  # dotted
+  kCS:
+    display_name: "kCS"
+    color: "#CC79A7"
+    marker: "s"
+    linestyle: "" #solid
+  kCS_1:
+    display_name: "kCS_1"
+    color: "#CC79A7"
+    marker: "s"
+    linestyle: "" #solid
+  kCS_32:
+    display_name: "kCS_32"
+    color: "#CC79A7"
+    marker: "s"
+    linestyle: [5, 2]  # dashed 
+  kCS_64:
+    display_name: "kCS_64"
+    color: "#CC79A7"
+    marker: "o"
+    linestyle: [5, 2]  # dashed  
+  kCS_128:
+    display_name: "kCS_128"
+    color: "#CC79A7"
+    marker: "."
+    linestyle: [5, 2]  # dashed  
+  MRepLM:
+    display_name: "MRepLM"
+    color: "#D55E00"
+    marker: "o"
+  MRepLM_1:
+    display_name: "MRepLM_1"
+    color: "#D55E00"
+    marker: "o"
+    linestyle: "" #solid
+  MRepLM_32:
+    display_name: "MRepLM_32"
+    color: "#D55E00"
+    marker: "o"
+    linestyle: [5, 2]  # dashed
+  MRepS:
+    display_name: "MRepS"
+    color: "#0072B2"
+    marker: "d"
+    linestyle: "" #solid
+  MRepS_1:
+    display_name: "MRepS_1"
+    color: "#0072B2"
+    marker: "d"
+    linestyle: "" #solid
+  MRepS_32:
+    display_name: "MRepS_32"
+    color: "#0072B2"
+    marker: "d"
+    linestyle: [5, 2]  # dashed
+  NCb:
+    display_name: "NC"
+    color: "#0077BB"
+    marker: "X"
+    linestyle: "" #solid
+  kEC:
+    display_name: "kEC"
+    color: "#000000"
+    marker: "P"
+    linestyle: "" #solid
+  stk:
+    display_name: "stk"
+    color: "#009E73"
+    marker: "<"
+    linestyle: "" #solid
+  stk-dp:
+    display_name: "stk-dp"
+    color: "#009E73"
+    marker: "v"
+    linestyle: [1,1] #dotted
+
+param_config:
+  running_time: "Running Time"
+  matching_weight: "Matchings Weight"
+  matching_size: "Matchings Size"
+
+short_param_config:
+  running_time: "Time"
+  matching_weight: "Weight"
+  matching_size: "Size"
+
+#["#6F4C9B","#6059A9","#5568B8","#4E79C5","#4D8AC6","#4E96BC","#549EB3","#59A5A9","#60AB9E","#69B190","#77B77D","#8CBC68","#A6BE54","#BEBC48","#D1B541","#DDAA3C","#E49C39","#E78C35","#E67932","#E4632D","#DF4828","#DA2222"]
+partition_config:
+  random:
+    display_name: "RANDOM"
+    color: "#DF4828"
+    marker: 'o'
+    linestyle: "" #solid
+
+  diststream:
+    display_name: "DW-FENNEL"
+    color: "#6F4C9B"
+    marker: 'v'
+    linestyle: [5, 2]  # dashed
+
+  metis:
+    display_name: "METIS"
+    color: "#4D8AC6"
+    marker: 'p'
+    linestyle: "" #solid
+
+  umetis:
+    display_name: "U-METIS"
+    color: "#E49C39"
+    marker: 'd'
+    linestyle: [1,1] #dotted
+  uwmetis:
+    display_name: "UW-METIS"
+    color: "#77B77D"
+    marker: 'P'
+    linestyle: [3,2,1,2] #dashdotted
+  ukahip:
+    display_name: "U-KAHIP"
+    color: "#4E96BC"
+    marker: 's'
+    linestyle: [3,2,1,2,1,2] #dashdatdotted
+
+
+
+
+graph_names:
+  fbA:
+    display_name: "fbA"
+    color: "#CC6677"
+    marker: 'o'
+  fbB:
+    display_name: "fbB"
+    color: "#AA4499"
+    marker: 'o'
+  fbC:
+    display_name: "fbC"
+    color: "#332288"
+    marker: 'v'
+  rmat_s20_ef48_0.25_0.25_0.25_0.25_exp:
+    display_name: "rmat_a_20_exp"
+    color: "#DDCC77"
+    marker: '>'
+  rmat_s20_ef48_0.25_0.25_0.25_0.25_uni:
+    display_name: "rmat_a_20_uni"
+    color: "#117733"
+    marker: 'p'
+  rmat_s20_ef48_0.45_0.15_0.15_0.25_exp:
+    display_name: "rmat_b_20_exp"
+    color: "#88CCEE"
+    marker: 'd'
+  rmat_s20_ef48_0.45_0.15_0.15_0.25_uni:
+    display_name: "rmat_b_20_uni"
+    color: "#882255"
+    marker: 'P'
+  rmat_s20_ef48_0.55_0.15_0.15_0.15_exp:
+    display_name: "rmat_c_20_exp"
+    color: "#44AA99"
+    marker: 's'
+  rmat_s20_ef48_0.55_0.15_0.15_0.15_uni:
+    display_name: "rmat_c_20_uni"
+    color: "#999933"
+    marker: 'X'
+  rgg_n_2_23_s0_exp:
+    display_name: "  rgg_23_exp"
+    color: "#88CCEE"
+    marker: 'd'
+  rgg_n_2_23_s0_uni:
+    display_name: "rgg_23_uni"
+    color: "#882255"
+    marker: 'P'
+  rgg_n_2_24_s0_exp:
+    display_name: "rgg_24_exp"
+    color: "#44AA99"
+    marker: 's'
+  rgg_n_2_24_s0_uni:
+    display_name: "rgg_24_uni"
+    color: "#999933"
+    marker: 'X'
+  rmat_s24_ef24_0.25_0.25_0.25_0.25_exp:
+    display_name: "rmat_a_24_exp"
+    color: "#DDCC77"
+    marker: '>'
+  rmat_s24_ef24_0.25_0.25_0.25_0.25_uni:
+    display_name: "rmat_a_24_uni"
+    color: "#117733"
+    marker: 'p'
+  rmat_s24_ef24_0.45_0.15_0.15_0.25_exp:
+    display_name: "rmat_b_24_exp"
+    color: "#88CCEE"
+    marker: 'd'
+  rmat_s24_ef24_0.45_0.15_0.15_0.25_uni:
+    display_name: "rmat_b_24_uni"
+    color: "#882255"
+    marker: 'P'
+  rmat_s24_ef24_0.55_0.15_0.15_0.15_exp:
+    display_name: "rmat_c_24_exp"
+    color: "#44AA99"
+    marker: 's'
+  rmat_s24_ef24_0.55_0.15_0.15_0.15_uni:
+    display_name: "rmat_c_24_uni"
+    color: "#999933"
+    marker: 'X'
+  rmat_s26_ef8_0.25_0.25_0.25_0.25:
+    display_name: "rmat_26_a"
+    color: "#D81B60"
+    marker: '>'
+  rmat_s26_ef8_0.45_0.15_0.15_0.25:
+    display_name: "rmat_26_b"
+    color: "#FC7B77"
+    marker: 'p'
+  rmat_s26_ef8_0.55_0.15_0.15_0.15:
+    display_name: "rmat_26_c"
+    color: "#FFC107"
+    marker: 'd'
+  rmat_s27_ef8_0.25_0.25_0.25_0.25:
+    display_name: "rmat_27_a"
+    color: "#324FBA"
+    marker: 's'
+  rmat_s27_ef8_0.45_0.15_0.15_0.25:
+    display_name: "rmat_27_b"
+    color: "#1E88E5"
+    marker: 'P'
+  rmat_s27_ef8_0.55_0.15_0.15_0.15:
+    display_name: "rmat_27_c"
+    color: "#41DFFF"
+    marker: 'X'
+  rmat_s28_ef8_0.25_0.25_0.25_0.25:
+    display_name: "rmat_28_a"
+    color: "#004D40"
+    marker: 'o'
+  rmat_s28_ef8_0.45_0.15_0.15_0.25:
+    display_name: "rmat_28_b"
+    color: "#23A508"
+    marker: '^'
+  rmat_s28_ef8_0.55_0.15_0.15_0.15:
+    display_name: "rmat_28_c"
+    color: "#A79A79"
+    marker: 'h'
+  0.25_0.25_0.25_0.25:
+    display_name: "rmat_a"
+    color: "#c1109f"
+    marker: 'D'
+  0.45_0.15_0.15_0.25:
+    display_name: "rmat_b"
+    color: "#a5a900"
+    marker: 'H'
+  0.55_0.15_0.15_0.15:
+    display_name: "rmat_c"
+    color: "#0099c1"
+    marker: '<'
+
+
+
+# Colours in default order: '#CC6677', '#332288', '#DDCC77', '#117733', '#88CCEE', '#882255', '#44AA99', '#999933', '#AA4499'. Bad data: '#DDDDDD'.
